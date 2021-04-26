@@ -43,7 +43,7 @@ public class Main
         studentList.add(st);
         studentList.add(st3);
 
-//test aaaa ghghhgg
+//test aaaa ghghhgg ggggttg
         Map<String,Double> sumAndreaCgpa = studentList.stream()
                 .filter(x -> x.getFname().equals("Andrea"))
                 .collect(Collectors.groupingBy(Student::getFname,Collectors.summingDouble(Student::getCgpa)))
